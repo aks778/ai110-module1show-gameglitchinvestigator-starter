@@ -29,9 +29,12 @@ It wrote the code, ran away, and now the game is unplayable.
 - [ ] Detail which bugs you found.
 - [ ] Explain what fixes you applied.
 
+The game's purpose is to allow the user to guess a secret number given 8 attempts, by providing hints, and allowing the option to reset the game. I found a bug that wouldn't allow the game to rest, an issue with the hint messages to go higher/lower, and a type error that wouldn't allow the game to accept strings. The fixes allowed the game to reset properly by resetting everything to 0, and allowing the status to change to "playing." The high/low bug message was fixed by switching the messages. The type error was fixed by casting the secret and guess to strings for safe comparisons.
+
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
+![alt text](image.png)
 
 ## 🚀 Stretch Features
 

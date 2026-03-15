@@ -32,6 +32,7 @@ After running the pytests it generated and verifiying the changes took effect on
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+A rerun is when everytime the user clicks something or engages with the webapp, the entire code is ran again. A session state, unlike a rerun allows the data to remain despite reruns to prevent the data from being lost.
 
 ---
 
@@ -41,3 +42,5 @@ After running the pytests it generated and verifiying the changes took effect on
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+A strategy I want to reuse for future projects is to make sure to verify the suggestions and changes Copilot makes. I would directly work with creating an agent and prompting it, rather than waiting for later to create an agent in order to speed up the process. This project helped me better understand the fact that AI generated code can be redundant and unnecessary in some cases. When trying to fix the reset option, it tried adding an extra method, which I thought wasn't required, which reinforces the fact that AI generated code should always be reviewed before using.
